@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import math
 import time
-from lessons import lesson_1_6_4
+import lesson_1_6_4
 
 link = "http://suninjuly.github.io/find_link_text"
 try:

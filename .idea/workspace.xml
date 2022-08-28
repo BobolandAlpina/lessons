@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Adding all files to git repo">
+    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Refactoring project structure">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/alert_communication.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/dropdown.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/execute_script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/get_attribute.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/implicit_wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lesson6step11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lesson_1.6.5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lesson_1_6_4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lesson_1_6_7.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lesson_2_1_5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson_1.6.5.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lessons/lesson_1.6.5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/module1_lesson6_step8.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/start_browser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/work_with_files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/alert_communication.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/dropdown.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/exceptions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/execute_script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/get_attribute.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/implicit_wait.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson6step11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson_1.6.5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson_1_6_4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson_1_6_7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/lesson_2_1_5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/module1_lesson6_step8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/start_browser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/lessons/work_with_files.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +46,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/lessons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/tests" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="lessons" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="lessons" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\temp\lessons\venv" />
       <recent name="C:\temp\lessons\venv\Scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\temp\lessons\venv\tests" />
+      <recent name="C:\temp\lessons\venv" />
+      <recent name="C:\temp\lessons\venv\lessons" />
     </key>
   </component>
   <component name="RunManager">
@@ -67,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\temp\lessons\venv\lessons\get_attribute.py" />
+      <option name="SCRIPT_NAME" value="C:\temp\lessons\venv\tests\get_attribute.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661687437815</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring project structure">
+      <created>1661687785679</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661687785679</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Refactoring project structure">
+      <created>1661687850362</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1661687850362</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,23 +164,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push" />
     <MESSAGE value="Adding all files to git repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding all files to git repo" />
+    <MESSAGE value="Refactoring project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring project structure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv/lessons/start_browser.py</url>
+          <url>file://$PROJECT_DIR$/venv/start_browser.py</url>
           <line>20</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv/lessons/lesson_2_1_5.py</url>
+          <url>file://$PROJECT_DIR$/venv/lesson_2_1_5.py</url>
           <line>16</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/venv/lessons/dropdown.py</url>
+          <url>file://$PROJECT_DIR$/venv/dropdown.py</url>
           <line>21</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
