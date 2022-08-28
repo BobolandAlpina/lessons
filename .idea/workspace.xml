@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Refactoring project structure">
-      <change beforePath="$PROJECT_DIR$/venv/tests/lesson6step11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/tests/lesson_1.6.5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/tests/module1_lesson6_step8.py" beforeDir="false" />
+    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Add renamed files to directory">
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bio.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661688983044</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rename old files (starting with lessons_...)">
+      <created>1661689383959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1661689383959</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Add renamed files to directory">
+      <created>1661689454318</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661689454318</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +172,9 @@
     <MESSAGE value="First push" />
     <MESSAGE value="Adding all files to git repo" />
     <MESSAGE value="Refactoring project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring project structure" />
+    <MESSAGE value="Rename old files (starting with lessons_...)" />
+    <MESSAGE value="Add renamed files to directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add renamed files to directory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
