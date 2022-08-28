@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Add renamed files to directory">
-      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/bio.txt" beforeDir="false" />
+    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Refactoring script file names">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/dist.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/venv/tests/lesson_unittest.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -55,7 +55,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="get_attribute" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lesson_unittest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lessons" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\temp\lessons\venv\tests\get_attribute.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/tests/lesson_unittest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.get_attribute" />
+        <item itemvalue="Python.lesson_unittest" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661689454318</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Small changes in readme.txt, deleted old bio.txt file">
+      <created>1661689690313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1661689690313</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactoring script file names">
+      <created>1661690003946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661690003947</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,7 +188,9 @@
     <MESSAGE value="Refactoring project structure" />
     <MESSAGE value="Rename old files (starting with lessons_...)" />
     <MESSAGE value="Add renamed files to directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add renamed files to directory" />
+    <MESSAGE value="Small changes in readme.txt, deleted old bio.txt file" />
+    <MESSAGE value="Refactoring script file names" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring script file names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,6 +204,11 @@
           <url>file://$PROJECT_DIR$/venv/tests/dropdown.py</url>
           <line>21</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/venv/tests/lesson_unittest.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
