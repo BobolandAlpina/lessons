@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="Rename old lessons from module 2">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/tests/finalizer_fixture_scope.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/tests/fixture_browser_init.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/tests/fixture_marks_use.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/tests/pytest_probe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/tests/requirements.txt" afterDir="false" />
+    <list default="true" id="c0493857-f98e-4e85-8a1c-01e0e5a17972" name="Changes" comment="New module lessons added&#10;Fixtures^ browser init, browser finalizer, marked methods/clsses, pytest.ini(to avoid warnings)">
+      <change afterPath="$PROJECT_DIR$/venv/tests/fixture_skip_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/tests/fixture_xfail.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/tests/lesson_3_5_6.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/tests/lesson_3_2_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/tests/lesson_3_2_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/tests/fixture_marks_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/tests/fixture_marks_use.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661761064246</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New module lessons added&#10;Fixtures^ browser init, browser finalizer, marked methods/clsses, pytest.ini(to avoid warnings)">
+      <created>1662364162991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1662364162991</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,7 +216,8 @@
     <MESSAGE value="Refactoring script file names" />
     <MESSAGE value="New lessons from module 3.2" />
     <MESSAGE value="Rename old lessons from module 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rename old lessons from module 2" />
+    <MESSAGE value="New module lessons added&#10;Fixtures^ browser init, browser finalizer, marked methods/clsses, pytest.ini(to avoid warnings)" />
+    <option name="LAST_COMMIT_MESSAGE" value="New module lessons added&#10;Fixtures^ browser init, browser finalizer, marked methods/clsses, pytest.ini(to avoid warnings)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
